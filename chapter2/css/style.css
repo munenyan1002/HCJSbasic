@@ -31,6 +31,10 @@ header h1 {
 .descripsion img {
   float: left;
   margin: 0 10px 10px 0;
+  transition-property: opacity:0.5;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
 
 .infomation h1 {
@@ -103,6 +107,7 @@ footer {
     display: block;
     margin: 0 auto;
   }
+
   .header {
     padding: 5px;
   }
@@ -116,4 +121,8 @@ footer {
     float: none;
     width: inherit;
   }
+}
+
+.descripsion img:hover {
+  opacity: .5;
 }
